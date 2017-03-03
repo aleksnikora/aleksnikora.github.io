@@ -1,0 +1,75 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+.wrapper {
+	width: 500px;
+	margin: 0 auto;	
+}
+body{
+	font-family: "MyriadProRegular";
+}
+header {
+	padding-top: 50px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+header img {
+	height: 200px;
+	display: inline-block;
+	margin-bottom: 27px;
+}
+header p {
+	text-align: left;
+}
+header h1 {
+	line-height: 45px;
+	margin-bottom: 16px;
+}
+hr {
+	margin-bottom: 15px;
+}
+.goal {
+	margin-bottom: 25px;
+}
+.goal h2 {
+	line-height: 30px;
+	margin-bottom: 20px;
+}
+.goal ul {
+	padding-left: 34px;
+}
+.my-contacts {
+	margin-bottom: 25px;
+}
+.my-contacts h4 {
+	margin-bottom: 20px;
+	font-size: 24px;
+}
+.my-contacts a:first-of-type {
+	text-decoration: none;
+	display: inline-block;
+	margin-bottom: 10px;
+	padding-left: 30px;
+	color: #000;
+}
+
+.my-contacts a:last-of-type {
+	text-decoration: underline;
+	padding-left: 30px;
+	font-style: italic;
+}
+.my-feedback h4 {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+.my-feedback p {
+	padding-left: 30px;
+}
+
+
+
+
+
+
+
