@@ -6,12 +6,11 @@ body {
 
 .wrapper {
     width: 966px;
-    padding: 0 46px;
+    padding: 0 46px 60px 46px;
     margin: 0 auto;
     background-color: #fff;
-    box-shadow: 0px -5px 5px 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px -1px 5px 1px rgba(0, 0, 0, 0.3);
 }
-
 .header {
     margin-bottom: 40px;
 }
@@ -59,26 +58,27 @@ a.logo {
     line-height: 40px;
 }
 
-.menu-top a:hover,
-.menu-top a.active{
+.menu-top a:hover{
     border-left: 1px solid #838383;
     border-right: 1px solid #838383;
     background-color: #2f2f2f;
     background: linear-gradient(to top, #2f2f2f, #4a4a4a);
 }
 
-.left{
+.aside{
     float: left;
 }
 
 .menu-left {
     width: 240px;
     border: 1px solid #000;
+    border-color: c8c8c8;
 }
 
 .menu-left li {
     height: 40px;
     border-bottom: 1px solid #000;
+    border-color: c8c8c8;
 }
 
 .menu-left:last-child {
@@ -93,9 +93,9 @@ a.logo {
     text-decoration: none;
 }
 
-.menu-left a:hover,
-.menu-left a.active {
+.menu-left a:hover{
     padding-left: 36px;
+    color: 474747;
 }
 
 .main {
@@ -122,11 +122,11 @@ a.logo {
 }
 
 .footer {
-    padding-bottom: 60px;
+    background-color: #e1e1e1;
 }
 
-.menu-bottom {
-    background-color: #e1e1e1;
+.width {
+    width: 70%;
 }
 
 .menu-bottom li {
@@ -144,11 +144,12 @@ a.logo {
     color: #2c2c2c;
 }
 
-.menu-bottom a:hover,
-.menu-bottom a.active {
+.menu-bottom a:hover{
     border-bottom: 1px solid #2c2c2c;
 }
 
-.menu-bottom li:last-child {
-    margin: 0 0 0 210px;
+.footer p {
+    float: right;
+    margin: 0 20px 0 0;
+    line-height: 40px;
 }
