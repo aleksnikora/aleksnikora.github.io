@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+   background: linear-gradient(to bottom,
+   #128aa7 3%, #5ef0ff 1%,
+   #23d1e4 8%, #f4fdfe 17.5%, 
+   #1496b3 15%, #28abc1 5%, 
+   #0c75a0 100%);
+  font-family: 'Tahoma', Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  }
+
+header {
+  background-color: #fff;
+  color: #128aa7;
+  padding: 14px 20px 0;
+}
+
+header::after {
+  clear: both;
+  content: '';
+  display: block;
+}
+
+footer {
+  color: #fff;
+  height: 31px;
+  min-width: 1200px;
+  text-align: center;
+}
+
+footer p {
+  padding: 8px 0 11px;
+}
+
+h2 {
+  color: #424c43;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 8px 0;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+nav {
+  background: linear-gradient(rgba(55, 55, 55, 1), rgba(48, 48, 48, 1));
+  border-bottom: 1px solid #000;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .5);
+  height: 28px;
+  position: relative;
+}
+
+nav ul {
+  margin-left: 50px;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav li a {
+  color: #fff;
+  display: block;
+  font-size: 14px;
+  padding: 5px 33px 7px 15px;
+  text-decoration: none;
+}
+
+nav li ul {
+  background-color: #303030;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, .75);
+  margin-left: 0;
+  position: absolute;
+  width: 150px;
+}
+
+nav li li {
+  display: none;
+}
+
+nav li:hover li {
+  display: block;
+}
+
+.logo {
+  background-image: url('../img/logo.jpg');
+  background-repeat: no-repeat;
+  color: #128aa7;
+  float: left;
+  height: 164px;
+  text-decoration: none;
+  width: 283px;
+}
+
+.logo p {
+  margin: 100px 0 0 70px;
+}
+
+.contacts {
+  float: right;
+  height: 90px;
+  line-height: 17px;
+}
+
+.contacts h2 {
+  color: #128aa7;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.countries {
+  clear: right;
+  float: right;
+}
+
+.countries li {
+  background-repeat: no-repeat;
+  display: inline-block;
+  font-size: 10px;
+  text-align: center;
+  width: 60px;
+}
+
+.countries a {
+  color: #128aa7;
+}
+
+.countries i {
+  background-position: center;
+  background-repeat: no-repeat;
+  content: '';
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+}
+
+.india {
+  background-image: url('../img/india-icon.png');
+}
+
+.nepal {
+  background-image: url('../img/nepal-icon.png');
+}
+
+.tibet {
+  background-image: url('../img/tibet-icon.png');
+}
+
+.bhutan {
+  background-image: url('../img/bhutan-icon.png');
+}
+
+.sri-lanka {
+  background-image: url('../img/sri-lanka-icon.png');
+}
+
+.maledives {
+  background-image: url('../img/maldives-icon.png');
+}
+
+.wrapper {
+  box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.3);
+  margin: 0 130px 0 150px;
+  min-width: 917px;
+}
+
+.above-the-fold {
+  background-image: url('../img/above-the-fold.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 1px solid #128aa7;
+  border-top: 1px solid #128aa7;
+  height: 237px;
+}
+
+.main-wrapper {
+  background-color: #edeef0;
+  display: flex;
+}
+
+.main-wrapper a {
+  font-size: 14px;
+  line-height: 24px;
+  padding-left: 15px;
+  text-decoration: none;
+}
+
+.fa.fa-play{
+	color: white;
+	font-size: 5px;
+
+}
+
+.dropdown-icon {
+  font-size: 7px;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+.left-column {
+  border-left: 1px solid #c7cacf;
+  border-right: 1px solid #c7cacf;
+  width: 21.8%;
+}
+
+.main-content {
+  background-color: #fff;
+  width: calc(57.4% - 4px);
+}
+
+.right-column {
+  border-left: 1px solid #c7cacf;
+  border-right: 1px solid #c7cacf;
+  width: 20.8%;
+}
+
+.right-column a {
+  color: #424c43;
+}
+
+.left-column a {
+  color: #424c43;
+  display: block;
+}
+
+
