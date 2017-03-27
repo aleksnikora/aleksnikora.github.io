@@ -1,0 +1,143 @@
+body {
+	background-image: url(../img/bg.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: "Helvetica Neue", Tahoma, sans-serif;
+	color: #fff;
+	font-size: 14px;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+
+
+.header {
+	background-color: #085494;
+	width: 100%;
+	height: 36px;
+}
+
+.top-menu {
+	float: right;
+}
+
+.top-menu ul,
+.top-menu li,
+.top-menu .prop,
+.top-menu .signup {
+	float: left;
+}
+
+.top-menu a {
+	float: left;
+	line-height: 36px;	
+	padding: 0 10px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.top-menu li a {
+	color: #60b5ed;
+}
+
+.top-menu li a:hover {
+	background: #4eabda;
+	color: #fff;
+}
+
+.top-menu ul:before {
+	content: "";
+	float: right;
+	width: 10px;
+	height: 30px;
+	margin: 3px 0;
+	border-right: 1px solid #56a2dc;
+}
+
+.top-menu .prop > a:hover {
+	text-decoration: underline;
+}
+
+.top-menu .prop > a:before {
+	content: url('../img/flag.png');
+	display: inline-block;
+ 	height: 100%;
+	vertical-align: middle;	
+	margin: 0 10px 0;
+	line-height: 0;
+	font-size: 0;
+}
+
+.top-menu .signup {
+	padding: 0 15px;
+	margin: 0 20px 0 5px;
+	border-radius: 3px;
+	background: rgba(81,176,220,1);
+	background: -moz-linear-gradient(top, rgba(81,176,220,1) 0%, rgba(46,121,196,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(81,176,220,1)), color-stop(100%, rgba(46,121,196,1)));
+	background: -webkit-linear-gradient(top, rgba(81,176,220,1) 0%, rgba(46,121,196,1) 100%);
+	background: -o-linear-gradient(top, rgba(81,176,220,1) 0%, rgba(46,121,196,1) 100%);
+	background: -ms-linear-gradient(top, rgba(81,176,220,1) 0%, rgba(46,121,196,1) 100%);
+	background: linear-gradient(to bottom, rgba(81,176,220,1) 0%, rgba(46,121,196,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#51b0dc', endColorstr='#2e79c4', GradientType=0 );
+}
+
+.top-menu .signup a {
+	display: inline;
+	float: none;
+	padding: 0;
+	text-decoration: underline;
+}
+
+.top-menu .signup a:hover {
+  text-decoration: none;
+}
+
+
+
+.form-wrapper {
+
+
+	margin: 213px auto 0;
+	padding-bottom: 21px;
+	width: 560px;
+}
+
+
+
+.form-header {
+	height: 64px;
+	width: 100%;
+	margin-bottom: 2px;
+	background: rgba(0, 0, 0, 0.63);	
+}
+.form-header h1 {
+	font-size: 24px;
+	text-align: center;
+	line-height: 64px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+
+
+.form-content {
+	background: rgba(0, 0, 0, 0.63);
+	padding: 36px 0 20px 0;
+	margin: 0 auto;
+}
+
+
+
+.fb-button {
+	width: 276px;
+	height: 35px;
+	margin: 0 auto 20px;
+}
+
